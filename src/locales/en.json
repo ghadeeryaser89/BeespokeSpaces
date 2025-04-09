@@ -1,0 +1,372 @@
+{
+  "slider": {
+    "slides": [
+      {
+        "image": "https://i.ibb.co/4qtRkwj/Bespoke-Spaces-Company-Profile-2.jpg",
+        "title": "REAL ESTATE SERVICES",
+        "path": "/services/real_estate_live"
+      },
+      {
+        "image": "https://i.ibb.co/fYx1H9Lk/2.jpg",
+        "title": "INTERIOR DESIGN & FINISHING",
+        "path": "/services/interior-design"
+      },
+      {
+        "image": "https://i.ibb.co/m5LsGMJp/Bespoke-Spaces-Company-Profile-3.jpg",
+        "title": "CONSTRUCTION & DEVELOPMENT",
+        "path": "services/construction-development"
+      },
+      {
+        "image": "https://i.ibb.co/35jqFJhs/Bespoke-Spaces-Company-Profile-4.jpg",
+        "title": "PROPERTY & FACILITY MANAGEMENT",
+        "path": "/services/property_and_facility_management"
+      }
+    ]
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact Us",
+    "real_estate": "REAL ESTATE SERVICES",
+    "interior_design": "INTERIOR DESIGN & FITOUT",
+    "construction_and_Development": "CONSTRUCTION & DEVELOPMENT",
+    "property_and_facility_management": "PROPERTY & FACILITY MANAGEMENT",
+    "residential": "Residential",
+    "commercial": "Commercial",
+    "renovations": "Renovations",
+    "complain": "Service Request"
+  },
+  "about_us2": {
+    "title2": "ABOUT US",
+    "description_12": "Welcome to Bespoke Homes, where luxury meets artistry, and every detail is a brushstroke on the canvas of your dream home. At Bespoke Homes, we don't just build houses—we create timeless homes.",
+    "description_22": "Masterpieces tailored to the unique vision and lifestyle of each client. Our philosophy centers on the belief that every property tells a story, and we are dedicated to crafting narratives that encapsulate the essence of luxury living.",
+    "contact_us2": "Contact Us"
+  },
+  "services2": {
+    "title2": "SERVICES",
+    "list2": [
+      {
+        "title2": "REAL ESTATE",
+        "description2": "Explore prime real estate opportunities, offering luxury properties and investment solutions tailored to your needs."
+      },
+      {
+        "title2": "INTERIOR DESIGN",
+        "description2": "Transform your space with bespoke interior designs that blend elegance, functionality, and personal style."
+      },
+      {
+        "title2": "REAL ESTATE SERVICES",
+        "description2": "Comprehensive real estate solutions, including buying, selling, leasing, and property management services."
+      },
+      {
+        "title2": "INTERIOR DESIGN SERVICES",
+        "description2": "Expert interior design services tailored to enhance the beauty and comfort of residential and commercial spaces."
+      }
+    ]
+  },
+  "blog2": {
+    "title2": "BLOG",
+    "articles2": [
+      "TIMELESS HOT: READING TRENDS FOR ENDURING DESIGN",
+      "THE ONLY ONE: ACHIEVING INDIVIDUALITY IN INTERIOR DESIGN"
+    ]
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "addressLabel": "Address",
+    "callLabel": "Call",
+    "emailLabel": "Email",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Message",
+    "terms": "I agree to the",
+    "termsConditions": "Terms and Conditions.",
+    "sendButton": "SEND"
+  },
+  "about": {
+    "hero_alt": "Company Hero Image",
+    "title": "About Us",
+    "description": "Bespoke Spaces specializes in creating sophisticated, tailor-made environments through a full spectrum of real estate and design services—from development and construction to interior design and facility management. With a focus on innovation, precision, and storytelling through space, the team transforms visions into exceptional, functional, and luxurious realities.",
+    "company_overview": {
+      "title": "Company Overview"
+    },
+    "clients": {
+      "title": "Some of Our Clients",
+      "categories": {
+        "interior_design": "Interior Design",
+        "real_estate": "Real Estate",
+        "facility_management": "Facility Management",
+        "construction": "Construction"
+      }
+    },
+    "vision_mission": {
+      "title": "Our Vision & Mission",
+      "vision": "Our Vision",
+      "mission": "Our Mission",
+      "description": "Discover what drives us to redefine excellence in real estate and design.",
+      "details": {
+        "vision": "To be the leading provider of bespoke real estate solutions, integrating design, construction, and facility management with innovation and excellence.",
+        "mission": "To transform aspirations into reality by delivering bespoke real estate solutions that integrate design, construction, and facility management, ensuring functionality, efficiency, and excellence in every project."
+      }
+
+    }
+  },
+  "complain": {
+    "title": "Service Request",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "country": "Country",
+    "location": "Location In Details",
+    "buildingnum": "Building Number",
+    "floor": "Floor",
+    "unitnum": "Unit Number",
+    "select_service": "Select a Service",
+    "elevators": "Elevators",
+    "hvac": "HVAC",
+    "plumbing": "Plumbing",
+    "cctv": "CCTV",
+    "pest_control": "Pest Control",
+    "security": "Security",
+    "generators": "Generators",
+    "fire_safety_systems": "Fire Safety Systems",
+    "electrical_works": "Electrical Works",
+    "waste_management": "Waste Management",
+    "cleaning_services": "Cleaning Services",
+    "other": "Other",
+    "description": "Describe your complaint",
+    "submit": "Submit",
+    "success": "Your complaint has been submitted successfully!",
+    "errors": {
+      "first_name_required": "First name is required.",
+      "last_name_required": "Last name is required.",
+      "invalid_email": "Please enter a valid email address.",
+      "invalid_phone": "Phone number must be 11 digits.",
+      "country_required": "Country is required.",
+      "location_required": "Location is required.",
+      "service_required": "Please select a service.",
+      "description_required": "Please provide a description of your complaint."
+    }
+  },
+  "services": {
+    "real_estate": "REAL ESTATE",
+    "interior_design": "INTERIOR DESIGN",
+    "real_estate_services": "REAL ESTATE SERVICES",
+    "interior_design_services": "INTERIOR DESIGN SERVICES",
+    "our_services": "OUR SERVICES",
+    "description": "We offer premium design solutions tailored to your needs, creating spaces that inspire and elevate your lifestyle."
+  },
+  "realstate": {
+    "real_estate_live": "REAL ESTATE – LIVE",
+    "understanding_vision": "UNDERSTANDING YOUR VISION",
+    "vision_description": "We start by engaging in in-depth discussions with our clients to understand their vision, needs, and constraints for their dream home. This phase includes site visits, budget considerations, and timeline planning. The outcome is a comprehensive document that guides the entire process.",
+    "property_acquisition": "PROPERTY ACQUISITION",
+    "property_acquisition_description": "Finding the perfect luxury property tailored to your living needs. We take into consideration property pricing, future market benchmarks, and potential growth to ensure the best investment for our clients.",
+    "purchasing_property": "PURCHASING THE PROPERTY",
+    "purchasing_description": "We facilitate the entire buying process, ensuring a smooth transaction. Our team is dedicated to providing expert guidance every step of the way to ensure that you make an informed decision in purchasing your dream property."
+  },
+  "real_estate_services": {
+    "title": "REAL ESTATE SERVICES",
+    "investment_advisory": "Investment Advisory",
+    "investment_advisory_desc": "Identifying lucrative opportunities and assessing market trends.",
+    "property_acquisition": "Property Acquisition",
+    "property_acquisition_desc": "Securing prime properties aligned with investment goals.",
+    "sales_transactions": "Sales & Transactions",
+    "sales_transactions_desc": "Facilitating seamless property sales and negotiations.",
+    "leasing_tenant_management": "Leasing & Tenant Management",
+    "leasing_tenant_management_desc": "Maximizing property occupancy and tenant relations."
+  },
+  "interior_design": {
+    "title": "INTERIOR DESIGN & FINISHING",
+    "concept_design": "Concept Design & Space Planning",
+    "concept_design_desc": "Crafting personalized layouts and themes.",
+    "rendering_visualization": "3D Rendering & Visualization",
+    "rendering_visualization_desc": "Bringing designs to life through advanced visualization.",
+    "lighting_design": "Lighting Design & Installation",
+    "lighting_design_desc": "Designing and integrating advanced lighting systems.",
+    "shop_drawings_execution": "Shop Drawings & Execution",
+    "shop_drawings_execution_desc": "Translating concepts into precise implementation.",
+    "woodwork_flooring": "Woodwork, Marble & Flooring Solutions",
+    "woodwork_flooring_desc": "Crafting high-end finishes for timeless appeal.",
+    "custom_furniture": "Custom Furniture & FF&E Solutions",
+    "custom_furniture_desc": "Tailoring furnishings to elevate interiors."
+  },
+  "constructionDevelopment": {
+    "title": "CONSTRUCTION & DEVELOPMENT",
+    "siteDevelopment": {
+      "title": "Site Development & Planning",
+      "description": "Strategizing land use and infrastructure development."
+    },
+    "structuralCivilWorks": {
+      "title": "Structural & Civil Works",
+      "description": "Executing high-quality construction with precision."
+    },
+    "mep": {
+      "title": "MEP",
+      "description": "Implementing essential building systems."
+    },
+    "finishingFitOut": {
+      "title": "Finishing & Fit-Out",
+      "description": "Delivering final aesthetic and functional enhancements."
+    }
+  },
+  "propertyFacilityManagement": {
+    "title": "PROPERTY & FACILITY MANAGEMENT",
+    "assetLeaseManagement": {
+      "title": "ASSET & LEASE MANAGEMENT",
+      "description": "Enhancing long-term property performance and profitability."
+    },
+    "maintenanceOperations": {
+      "title": "MAINTENANCE & OPERATIONS",
+      "description": "Ensuring seamless functionality and upkeep of assets including:",
+      "list": {
+        "elevators": "Elevators",
+        "generators": "Generators",
+        "hvac": "HVAC",
+        "fireSafety": "Fire safety systems",
+        "plumbing": "Plumbing",
+        "electrical": "Electrical Works",
+        "cctv": "CCTV",
+        "wasteManagement": "Waste management",
+        "security": "Security",
+        "cleaning": "Cleaning services",
+        "pestControl": "Pest control"
+      }
+    },
+    "securityRiskManagement": {
+      "title": "SECURITY & RISK MANAGEMENT",
+      "description": "Implementing strategies for safety and asset protection."
+    },
+    "energyEfficiency": {
+      "title": "ENERGY EFFICIENCY & SUSTAINABILITY",
+      "description": "Integrating eco-friendly solutions for cost-effectiveness."
+    }
+  },
+  "about3": {
+    "title": "ABOUT US",
+    "description1": "Bespoke Spaces delivers luxurious, expertly crafted real estate and design solutions that blend innovation, functionality, and personalized elegance.",
+    "description2": "",
+    "contact": "Contact Us",
+    "more_about_us": "More About Us"
+  },
+  "services3": {
+    "title": "SERVICES",
+    "real_estate": {
+      "title": "REAL ESTATE SERVICES",
+      "description": "Strategic Investment & Management"
+    },
+    "interior_design3": {
+      "title": "INTERIOR DESIGN & FINISHING",
+      "description": "Curating Unique Environments"
+    },
+    "real_estate_services3": {
+      "title": "CONSTRUCTION & DEVELOPMENT",
+      "description": "From Vision to Reality"
+    },
+    "interior_design_services3": {
+      "title": "PROPERTY & FACILITY MANAGEMENT",
+      "description": "Optimizing & Sustaining Value"
+    }
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "intro": "Welcome to our website! These terms and conditions outline the rules and regulations for the use of our services.",
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "description": "By accessing this website, you accept these terms and conditions in full. Do not continue to use the website if you do not agree."
+    },
+    "section2": {
+      "title": "2. Changes to Terms",
+      "description": "We reserve the right to modify these terms at any time. Changes will take effect immediately upon posting on the site."
+    },
+    "section3": {
+      "title": "3. User Responsibilities",
+      "description": "You agree to use this website only for lawful purposes and in a manner that does not infringe the rights of others."
+    },
+    "section4": {
+      "title": "4. Contact Us",
+      "description": "If you have any questions regarding these terms, please contact us at info@bespokehomes.art"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This Privacy Policy explains how we collect, use, and protect your personal information. Your privacy is important to us, and we are committed to ensuring that your data is secure.",
+    "section1": {
+      "title": "Information Collection",
+      "description": "We collect information you provide directly to us when using our services."
+    },
+    "section2": {
+      "title": "Usage of Information",
+      "description": "Your data is used to improve our services and provide a better user experience."
+    }
+  },
+  "footer": {
+    "about_us": "About Us",
+    "about_us_text": "Bespoke Spaces delivers luxurious, expertly crafted real estate and design solutions that blend innovation, functionality, and personalized elegance.",
+    "learn_more": "Learn More",
+    "contact_us": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "get_in_touch": "Get in Touch",
+    "information": "Information",
+    "privacy_policy": "Privacy Policy",
+    "terms_conditions": "Terms & Conditions",
+    "rights": "All Rights Reserved"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "button": "Go to Home"
+  },
+  "mazaya_title": "Mazaya Towers",
+  "mazaya_description_1": "Mazaya Towers are commercial properties strategically located on Olaya Street and King Saud Road. While both locations offer strong potential, operational challenges have impacted their efficiency, tenant experience, and long-term asset value.",
+  "mazaya_description_2": "Bespoke Spaces brings the expertise to bridge these gaps. Through a structured and proactive facility management approach, we assess current conditions, identify areas for improvement, and implement solutions that enhance functionality and sustainability.",
+  "mazaya_description_3": "By ensuring seamless operations, reducing risks, and optimizing resources, we unlock the full potential of Mazaya Towers, transforming them into well-maintained, high-performing commercial assets.",
+  "projects_title": "Projects",
+  "mazaya_towers": "Mazaya Towers",
+  "villa_sulaymaniyah": "Al Sulaymaniah Villa",
+  "mazaya_category": "Commercial",
+  "villa_category": "Residential",
+  "projects": {
+    "title": "Projects",
+    "items": {
+      "1": {
+        "title": "Mazaya Towers",
+        "category": "Commercial"
+      },
+      "2": {
+        "title": "Al Sulaymaniah Villa",
+        "category": "Residential"
+      },
+      "3": {
+        "title": "3Bedroom Modern Apartment",
+        "category": "Residential"
+      },
+      "4": {
+        "title": "Modern Najdi Apartment",
+        "category": "Residential"
+      }
+    }
+  },
+  "villa": {
+    "title": "Marvelous Villa in Al Sulimaniyah District",
+    "description": "As you step through the door, a wave of natural light floods the bright and open living space, immediately enveloping you in an atmosphere of sophistication and warmth. The majlis, a true masterpiece of versatility, invites you to effortlessly shape the space to suit any occasion, whether intimate or grand. Surrounding you, luxury sideboards and cabinets in rich brown and olive tones, with their stone-faced panels, offer a timeless elegance, while a carefully curated painting and the Samsung Frame TV, both encased in identical frames, create the illusion of a dual art display. At the center of it all, a bespoke New Zealand wool rug, made exclusively for this space, combined with the handmade metal coffee table, anchor the room with its warmth and understated luxury.",
+    "read_more": "Read More",
+    "read_less": "Read Less"
+  },
+  "modern_apartment": {
+    "title": "3 Bedroom Modern Apartment",
+    "description": "Welcome to this stunning 3-bed, 3-bath furnished apartment in Riyadh’s Hittin District. Embrace luxury living in this timeless sanctuary where opulence meets sophistication. With bespoke furnishings and top-tier materials, every detail exudes elegance. Designed in a neutral palette reminiscent of a magazine cover, this wonderful apartment offers a retreat of unparalleled style. Available for both short and long-term rent, choose from serviced or non-serviced options to suit your lifestyle.",
+    "read_more": "Read More",
+    "read_less": "Read Less"
+  },
+  "modern_najdi_apartment": {
+    "title": "Modern Najdi Apartment",
+    "description": "This elegantly furnished 2-bedroom, 3-bathroom apartment embodies a refined blend of Diriyah-inspired charm and contemporary sophistication. Ideally situated less than 100 meters from Misk City and Misk Schools, it offers seamless access to the Diplomatic Quarter, Laysen Valley, and Diriyah, placing key destinations within easy reach. Designed with a focus on both style and comfort, the residence features spacious living areas, a fully equipped modern kitchen, and thoughtfully curated interiors that exude understated luxury. Every detail has been carefully considered to create a home that is both inviting and effortlessly elegant.",
+    "read_more": "Read More",
+    "read_less": "Read Less"
+  }
+}

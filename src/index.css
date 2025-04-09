@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background-color: #e6ded3; /* Dark Grey */
+    --foreground-color: #F5F3EE; /* Off-white */
+    --accent-1: #C49A6C; /* Golden Brown */
+    --accent-2: #D8B384; /* Lighter Gold */
+    --accent-3: #3A3935; /* Medium Grey */
+    --text-color: #F5F3EE; /* Off-white for text */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    background-color: var(--foreground-color);
+}
+
+.button {
+    background-color: var(--accent-1);
+    color: var(--text-color);
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: var(--accent-2);
+}
+
+.card {
+    background-color: var(--accent-3);
+    color: var(--text-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-1);
+}
+
+a {
+    color: var(--accent-1);
+}
+
+a:hover {
+    color: var(--accent-2);
+}
