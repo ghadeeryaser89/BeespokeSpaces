@@ -39,7 +39,7 @@ const AboutUs = () => {
       {/* Vision & Mission Section */}
       <section className="my-24">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl text-darkText font-bold uppercase tracking-widest animate-fadeInUp">
+          <h2 className="text-4xl md:text-5xl text-darkText font-bold uppercase animate-fadeInUp">
             {t("about.vision_mission.title")}
           </h2>
 

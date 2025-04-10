@@ -24,7 +24,7 @@ const Footer = () => {
                     <div className="md:w-1/3">
                         <h3 className="text-2xl font-semibold mb-4 text-darkText">{t("footer.contact_us")}</h3>
                         <p className="text-lightText">{t("footer.email")}: info@bespokehomes.art</p>
-                        <p className="text-lightText">{t("footer.phone")}: +966 55 8132 555</p>
+                        <p className="text-lightText">{t("footer.phone")}: <span dir="ltr" style={{ display: "inline-block" }}>+966 55 8132 555</span></p>
                         <Link to="/contact-us" className="mt-3 inline-block text-lightText hover:underline hover:text-darkText">
                             {t("footer.get_in_touch")}
                         </Link>

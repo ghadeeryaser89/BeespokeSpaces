@@ -48,8 +48,9 @@ const ContactUs = () => {
               <strong>{t("contact.addressLabel")}:</strong> Riyadh, Saudi Arabia
             </p>
             <p>
-              <strong>{t("contact.callLabel")}:</strong> +966 55 8132 555
-            </p>
+  <strong>{t("contact.callLabel")}:</strong> <span dir="ltr" style={{ display: "inline-block" }}>+966 55 8132 555</span>
+</p>
+
             <p>
               <strong>{t("contact.emailLabel")}:</strong> info@bespokehomes.art
             </p>

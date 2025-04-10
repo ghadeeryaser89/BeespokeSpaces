@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import i18n from "i18next"; // Import i18n for language detection
 
 const PropertyFacilityManagement = () => {
   const { t } = useTranslation();
@@ -92,7 +93,11 @@ const PropertyFacilityManagement = () => {
                     animate={{ height: showFullList ? "auto" : "120px" }}
                     transition={{ duration: 0.5, ease: "easeInOut" }}
                   >
-                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 list-disc pl-6">
+                    <ul 
+  className={`grid grid-cols-1 sm:grid-cols-2 gap-2 list-disc ${
+    i18n.language === "ar" ? "list-inside text-right" : "list-outside text-left"
+  }`}
+>
                       {service.maintenanceList
                         .slice(0, showFullList ? service.maintenanceList.length : 4)
                         .map((item) => (
