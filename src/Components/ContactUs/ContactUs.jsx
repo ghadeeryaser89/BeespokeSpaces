@@ -52,7 +52,7 @@ const ContactUs = () => {
 </p>
 
             <p>
-              <strong>{t("contact.emailLabel")}:</strong> info@bespokehomes.art
+              <strong>{t("contact.emailLabel")}:</strong> info@bespokespaces.me
             </p>
           </div>
 
