@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import emailjs from "emailjs-com";
 
 const ContactUs = () => {
   const { t } = useTranslation();
@@ -23,7 +24,38 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Submitted:", formData);
+    
+    // إرسال البيانات إلى Outlook عبر EmailJS
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    };
+  
+    emailjs
+      .send("service_iu99jgr", "template_p3besol", templateParams, "lhGvA_l5Z6vT_Pf3f")
+      .then(
+        (response) => {
+          console.log("Email sent successfully!", response);
+          alert("Your message has been sent successfully!");
+          
+          // تفريغ الفورم بعد الإرسال
+          setFormData({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+            agreed: false,
+          });
+        },
+        (error) => {
+          console.log("Error sending email:", error);
+          alert("Failed to send message. Please try again later.");
+        }
+      );
   };
+  
 
   return (
     <div className="bg-lightBg text-lightText py-20 px-6 flex justify-center  mt-10">
@@ -48,8 +80,8 @@ const ContactUs = () => {
               <strong>{t("contact.addressLabel")}:</strong> Riyadh, Saudi Arabia
             </p>
             <p>
-  <strong>{t("contact.callLabel")}:</strong> <span dir="ltr" style={{ display: "inline-block" }}>+966 55 8132 555</span>
-</p>
+              <strong>{t("contact.callLabel")}:</strong> <span dir="ltr" style={{ display: "inline-block" }}>+966 55 8132 555</span>
+            </p>
 
             <p>
               <strong>{t("contact.emailLabel")}:</strong> info@bespokespaces.me
@@ -130,7 +162,8 @@ const ContactUs = () => {
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="relative w-full overflow-hidden rounded-lg shadow-lg h-[500px] ">
+          className="relative w-full overflow-hidden rounded-lg shadow-lg h-[500px] "
+        >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1855575.336546754!2d47.943809594340166!3d24.721023435888597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2z2KfZhNix2YrYp9i2INin2YTYs9i52YjYr9mK2Kk!5e0!3m2!1sar!2seg!4v1743261767647!5m2!1sar!2seg"
             className="absolute top-0 left-0 w-full h-full border-0"
