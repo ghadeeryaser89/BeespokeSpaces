@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -14,6 +14,8 @@ const images = [
 
 const ModernApartmentSlider = () => {
   const [expanded, setExpanded] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const sliderRef = useRef(null);
   const { t } = useTranslation();
 
   const settings = {
@@ -22,11 +24,11 @@ const ModernApartmentSlider = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 0,
-    speed: 5000,
-    cssEase: "linear",
+    autoplaySpeed: 3000,
+    speed: 800,
+    cssEase: "ease",
     pauseOnHover: true,
-    arrows: false,
+    arrows: true,
     responsive: [
       { breakpoint: 1280, settings: { slidesToShow: 3 } },
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
@@ -34,19 +36,32 @@ const ModernApartmentSlider = () => {
     ],
   };
 
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "ArrowLeft") {
+        sliderRef.current?.slickPrev();
+      } else if (e.key === "ArrowRight") {
+        sliderRef.current?.slickNext();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
   return (
     <section className="bg-darkBg text-lightText py-12 px-6 flex flex-col items-center">
-      {/* Title */}
       <h2 className="mt-6 text-4xl font-oswald text-center text-darkText tracking-wide uppercase pt-12">
         {t("villa.title")}
       </h2>
 
-      {/* Slider */}
       <div className="w-full max-w-5xl overflow-hidden">
-        <Slider {...settings} className="overflow-hidden">
+        <Slider {...settings} ref={sliderRef}>
           {images.map((img, index) => (
             <div key={index} className="p-3">
-              <div className="relative group">
+              <div
+                className="relative group cursor-pointer"
+                onClick={() => setSelectedImage(selectedImage === img ? null : img)}
+              >
                 <img
                   src={img}
                   alt={`Slide ${index + 1}`}
@@ -59,7 +74,18 @@ const ModernApartmentSlider = () => {
         </Slider>
       </div>
 
-      {/* Description with "Read More" button */}
+      {/* الصورة الكبيرة اللي بتظهر عند الضغط */}
+      {selectedImage && (
+        <div className="mt-8">
+          <img
+            src={selectedImage}
+            alt="Selected"
+            className="max-w-4xl max-h-[500px] object-contain rounded-lg shadow-lg cursor-pointer"
+            onClick={() => setSelectedImage(null)}
+          />
+        </div>
+      )}
+
       <p className="text-lg text-subtextLight leading-relaxed tracking-wide max-w-4xl text-center mt-8">
         {expanded ? t("villa.description") : `${t("villa.description").substring(0, 200)}...`}
       </p>
