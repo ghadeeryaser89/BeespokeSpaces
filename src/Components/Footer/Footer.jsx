@@ -34,6 +34,8 @@ const Footer = () => {
                     <div className="md:w-1/3">
                         <h3 className="text-2xl font-semibold mb-4 text-darkText">{t("footer.information")}</h3>
                         <ul className="space-y-2">
+                        <p className="text-lightText">{t("footer.Commercial_register")}: <span dir="ltr" style={{ display: "inline-block" }}>1009077141</span></p>
+                           
                             <li>
                                 <Link to="/privacy-policy" className="text-lightText hover:text-darkText transition">
                                     {t("footer.privacy_policy")}
