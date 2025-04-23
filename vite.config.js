@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // important to make assets load correctly on Firebase
+  base: '/', // important to make assets load correctly on Firebase
 })

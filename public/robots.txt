@@ -1,0 +1,10 @@
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+
+# Block crawling of certain Firebase or React internal routes (if needed)
+Disallow: /node_modules/
+Disallow: /#/
+
+# Point to your sitemap
+Sitemap: https://bespokespaces.me/sitemap.xml
