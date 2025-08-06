@@ -32,6 +32,7 @@ const Navbar = () => {
         
       ],
     },
+    { key: "navbar.OurClients", path: "/OurClients" },
     { key: "navbar.projects", path: "/projects" },
     { key: "navbar.contact", path: "/contact-us" },
     { key: "navbar.complain", path: "/feedback" },

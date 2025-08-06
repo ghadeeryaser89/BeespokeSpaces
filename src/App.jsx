@@ -10,6 +10,7 @@ import Slider from "./Components/Slider/Slider.jsx";
 import AboutUs from "./Components/About/AboutUs.jsx";
 import FeedbackPage from "./Components/Feedback/Feedback.jsx";
 import Services from "./Components/Services/Services.jsx";
+import OurClients from "./Components/Our Clients/OurClients.jsx";
 import Projects from "./Components/Projects/Projects.jsx";
 import InteriorDesign from "./Components/InteriorDesign/InteriorDesign.jsx";
 import RealEstateServices from "./Components/RealStateServices/RealStateServices.jsx";
@@ -50,6 +51,7 @@ const App = () => {
           <Route path="contact-us" element={<ContactUs />} />
           <Route path="about-us" element={<AboutUs />} />
           <Route path="services" element={<Services />} />
+          <Route path="OurClients" element={<OurClients />} />
           <Route path="projects" element={<Projects />} />
           <Route path="feedback" element={<FeedbackPage />} />
           <Route path="services/real_estate_live" element={<RealEstateServices />} />

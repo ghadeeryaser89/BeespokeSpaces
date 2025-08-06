@@ -32,6 +32,7 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
+    "OurClients": "Our Clients",
     "projects": "Projects",
     "contact": "Contact Us",
     "real_estate": "REAL ESTATE SERVICES",
@@ -101,15 +102,6 @@
     "description": "Bespoke Spaces specializes in creating sophisticated, tailor-made environments through a full spectrum of real estate and design services—from development and construction to interior design and facility management. With a focus on innovation, precision, and storytelling through space, the team transforms visions into exceptional, functional, and luxurious realities.",
     "company_overview": {
       "title": "Company Overview"
-    },
-    "clients": {
-      "title": "Some of Our Clients",
-      "categories": {
-        "interior_design": "Interior Design",
-        "real_estate": "Real Estate",
-        "facility_management": "Facility Management",
-        "construction": "Construction"
-      }
     },
     "vision_mission": {
       "title": "Our Vision & Mission",
@@ -256,10 +248,10 @@
   },
   "supplying_building_materials": {
     "title": "SUPPLYING BUILDING MATERIALS",
-    "Marble_Riyadh_stone_porcelain_and_ceramic": "Marble, Riyadh Stone, Porcelain and Ceramic",
-    "Electrical_products_and_lighting_solutions": "Electrical products and lighting solutions",
+    "Marble_Riyadh_stone_porcelain_and_ceramic": "All Types Of Stone For Flooring And Facades",
+    "Electrical_products_and_lighting_solutions": "Electrical Products & Lighting Solutions",
     "Sanitary_equipment_and_fixtures": "Sanitary equipment and fixtures",
-    "WoodWork_and_WPC_Doors": "Wood Work and WPC Doors"
+    "WoodWork_and_WPC_Doors": "Woodwork and WPC Doors"
   },
   "about3": {
     "title": "ABOUT US",
@@ -382,7 +374,7 @@
   },
   "modern_apartment": {
     "title": "3 Bedroom Modern Apartment",
-    "description": "Welcome to this stunning 3-bed, 3-bath furnished apartment in Riyadh’s Hittin District. Embrace luxury living in this timeless sanctuary where opulence meets sophistication. With bespoke furnishings and top-tier materials, every detail exudes elegance. Designed in a neutral palette reminiscent of a magazine cover, this wonderful apartment offers a retreat of unparalleled style. Available for both short and long-term rent, choose from serviced or non-serviced options to suit your lifestyle.",
+    "description": "Welcome to this stunning 3-bed, 3-bath furnished apartment in Riyadh’s Hittin District. Embrace luxury living in this timeless sanctuary where opulence meets sophistication. With bespoke furnishings and top-tier materials, every detail exudes elegance. Designed in a neutral palette reminiscent of a magazine cover, this wonderful apartment offers a retreat of unparalleled style.",
     "read_more": "Read More",
     "read_less": "Read Less"
   },
@@ -391,5 +383,9 @@
     "description": "This elegantly furnished 2-bedroom, 3-bathroom apartment embodies a refined blend of Diriyah-inspired charm and contemporary sophistication. Ideally situated less than 100 meters from Misk City and Misk Schools, it offers seamless access to the Diplomatic Quarter, Laysen Valley, and Diriyah, placing key destinations within easy reach. Designed with a focus on both style and comfort, the residence features spacious living areas, a fully equipped modern kitchen, and thoughtfully curated interiors that exude understated luxury. Every detail has been carefully considered to create a home that is both inviting and effortlessly elegant.",
     "read_more": "Read More",
     "read_less": "Read Less"
+  },
+  "our_clients": {
+    "title": "Some of Our Clients",
+    "trade_partners": "Some of Our Trade Partners"
   }
 }
