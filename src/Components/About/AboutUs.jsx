@@ -52,7 +52,11 @@ const AboutUs = () => {
           <div className="group bg-backgroundAlt/30 backdrop-blur-lg p-10 rounded-3xl border border-accentLight shadow-lg hover:shadow-2xl hover:scale-[1.03] transition duration-500 relative overflow-hidden flex flex-col items-center text-center">
             {/* Icon */}
             <div className="flex justify-center items-center mb-6">
-              <ChartNoAxesCombined className="h-20 w-20 text-caféAuLait" />
+              <img
+                src="https://i.ibb.co/m5Xbryv1/6.png"
+                alt="Target Icon"
+                className="h-20 w-20 object-contain"
+              />
             </div>
 
             <h3 className="text-3xl font-bold mb-4 tracking-wide">
@@ -68,9 +72,12 @@ const AboutUs = () => {
           <div className="group bg-backgroundAlt/30 backdrop-blur-lg p-10 rounded-3xl border border-accentLight shadow-lg hover:shadow-2xl hover:scale-[1.03] transition duration-500 relative overflow-hidden flex flex-col items-center text-center">
             {/* Icon */}
             <div className="flex justify-center items-center mb-6">
-              <Target className="h-20 w-20 text-caféAuLait" />
+              <img
+                src="https://i.ibb.co/VYZvDyJ8/7.png"
+                alt="Target Icon"
+                className="h-20 w-20 object-contain"
+              />
             </div>
-
             <h3 className="text-3xl font-bold mb-4 tracking-wide">
               {t("about.vision_mission.mission")}
             </h3>
