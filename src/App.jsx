@@ -23,6 +23,7 @@ import MainPage from "./Components/MazayaTowers/mainpage.jsx";
 import AlSulaymaniahVilla from "./Components/AlSulaymaniahVilla/AlSulaymaniahVilla.jsx";
 import ModernApartment from "./Components/3 Bedroom Modern Apart/ModernApartment.jsx";
 import ModernNajdiApartment from "./Components/Modern Najdi Apartment/ModernNajdiApartment.jsx";
+import SupplyingBuildingMaterials from "./Components/SUPPLYING BUILDING MATERIALS/SupplyingBuildingMaterials.jsx";
 
 const App = () => {
   const { i18n } = useTranslation();
@@ -55,6 +56,7 @@ const App = () => {
           <Route path="services/interior-design" element={<InteriorDesign />} />
           <Route path="services/property_and_facility_management" element={<PropertyManagement />} />
           <Route path="services/construction-development" element={<ConstructionDevelopment />} />
+          <Route path="services/SUPPLYING_BUILDING_MATERIALS" element={<SupplyingBuildingMaterials />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
           <Route path="terms-conditions" element={<TermsAndConditions />} />
           <Route path="projects/1" element={<MainPage />} />

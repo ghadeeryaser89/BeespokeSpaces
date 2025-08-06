@@ -6,10 +6,10 @@ const RealEstateServices = () => {
   const { t } = useTranslation();
 
   const services = [
-    { key: "investment_advisory", description: "investment_advisory_desc" },
-    { key: "property_acquisition", description: "property_acquisition_desc" },
-    { key: "sales_transactions", description: "sales_transactions_desc" },
-    { key: "leasing_tenant_management", description: "leasing_tenant_management_desc" }
+    { key: "Marble_Riyadh_stone_porcelain_and_ceramic", },
+    { key: "Electrical_products_and_lighting_solutions", },
+    { key: "Sanitary_equipment_and_fixtures", },
+    { key: "WoodWork_and_WPC_Doors", }
   ];
 
   return (
@@ -17,7 +17,7 @@ const RealEstateServices = () => {
       {/* 🏠 Page Header */}
       <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[550px]">
         <motion.img
-          src="https://i.ibb.co/4qtRkwj/Bespoke-Spaces-Company-Profile-2.jpg"
+          src="https://i.ibb.co/M5NkgfKD/27.jpg"
           alt="Luxury Real Estate"
           className="w-full h-full object-cover brightness-75"
           initial={{ opacity: 0, scale: 1.1 }}
@@ -31,7 +31,7 @@ const RealEstateServices = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          {t("real_estate_services.title")}
+          {t("supplying_building_materials.title")}
         </motion.h1>
       </div>
 
@@ -60,13 +60,10 @@ const RealEstateServices = () => {
 
                 {/* 🔸 Service Title */}
                 <h2 className="text-lg sm:text-xl md:text-2xl text-lightText font-semibold mb-3">
-                  {t(`real_estate_services.${service.key}`)}
+                  {t(`supplying_building_materials.${service.key}`)}
                 </h2>
 
-                {/* 📜 Service Description */}
-                <p className="text-sm sm:text-md text-subtextLight leading-relaxed">
-                  {t(`real_estate_services.${service.description}`)}
-                </p>
+            
               </motion.div>
             ))}
           </div>

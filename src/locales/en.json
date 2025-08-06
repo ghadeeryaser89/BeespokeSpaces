@@ -33,6 +33,7 @@
     "interior_design": "INTERIOR DESIGN & FITOUT",
     "construction_and_Development": "CONSTRUCTION & DEVELOPMENT",
     "property_and_facility_management": "PROPERTY & FACILITY MANAGEMENT",
+    "SUPPLYING_BUILDING_MATERIALS": "SUPPLYING BUILDING MATERIALS",
     "residential": "Residential",
     "commercial": "Commercial",
     "renovations": "Renovations",
@@ -62,6 +63,10 @@
       {
         "title2": "INTERIOR DESIGN SERVICES",
         "description2": "Expert interior design services tailored to enhance the beauty and comfort of residential and commercial spaces."
+      },
+      {
+        "title2": "SUPPLYING BUILDING MATERIALS",
+        "description2": "High-quality building materials for residential and commercial projects, focusing on sustainability and innovation."
       }
     ]
   },
@@ -84,7 +89,6 @@
     "terms": "I agree to the",
     "termsConditions": "Terms and Conditions.",
     "sendButton": "SEND"
-    
   },
   "about": {
     "hero_alt": "Company Hero Image",
@@ -111,7 +115,6 @@
         "vision": "To be the leading provider of bespoke real estate solutions, integrating design, construction, and facility management with innovation and excellence.",
         "mission": "To transform aspirations into reality by delivering bespoke real estate solutions that integrate design, construction, and facility management, ensuring functionality, efficiency, and excellence in every project."
       }
-
     }
   },
   "complain": {
@@ -246,6 +249,13 @@
       "description": "Integrating eco-friendly solutions for cost-effectiveness."
     }
   },
+  "supplying_building_materials": {
+    "title": "SUPPLYING BUILDING MATERIALS",
+    "Marble_Riyadh_stone_porcelain_and_ceramic": "Marble, Riyadh Stone, Porcelain and Ceramic",
+    "Electrical_products_and_lighting_solutions": "Electrical products and lighting solutions",
+    "Sanitary_equipment_and_fixtures": "Sanitary equipment and fixtures",
+    "WoodWork_and_WPC_Doors": "Wood Work and WPC Doors"
+  },
   "about3": {
     "title": "ABOUT US",
     "description1": "Bespoke Spaces delivers luxurious, expertly crafted real estate and design solutions that blend innovation, functionality, and personalized elegance.",
@@ -270,6 +280,10 @@
     "interior_design_services3": {
       "title": "PROPERTY & FACILITY MANAGEMENT",
       "description": "Optimizing & Sustaining Value"
+    },
+    "supplying_building_materials": {
+      "title": "SUPPLYING BUILDING MATERIALS",
+      "description": "Providing high-quality building materials."
     }
   },
   "terms": {
@@ -311,9 +325,11 @@
     "contact_us": "Contact Us",
     "email": "Email",
     "phone": "Phone",
+    "instgram": "Instagram",
+    "tiktok": "TikTok",
     "get_in_touch": "Get in Touch",
     "information": "Information",
-    "Commercial_register":" Commercial Register",
+    "Commercial_register": " Commercial Register",
     "privacy_policy": "Privacy Policy",
     "terms_conditions": "Terms & Conditions",
     "rights": "All Rights Reserved"

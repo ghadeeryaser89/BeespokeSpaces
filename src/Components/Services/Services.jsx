@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom"; 
 import { useTranslation } from "react-i18next"; 
@@ -30,7 +31,14 @@ const services = [
     titleKey: "services.property_and_facility_management", 
     descriptionKey: "services.description", 
     link: "/interior-design-services" 
-  }
+  },
+  {
+    id: 5,
+    src: "https://i.ibb.co/5Wr2gXYL/DSC00480.jpg",
+    titleKey: "services.SUPPLYING_BUILDING_MATERIALS",
+    descriptionKey: "services.description",
+    link: "/SUPPLYING_BUILDING_MATERIALS"
+  },
 ];
 
 const Services = () => {

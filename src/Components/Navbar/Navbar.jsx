@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -27,6 +28,8 @@ const Navbar = () => {
         { key: "navbar.interior_design", path: "/services/interior-design" },
         { key: "navbar.construction_and_Development", path: "/services/construction-development" },
         { key: "navbar.property_and_facility_management", path: "/services/property_and_facility_management" },
+        { key: "navbar.SUPPLYING_BUILDING_MATERIALS", path: "/services/SUPPLYING_BUILDING_MATERIALS" },
+        
       ],
     },
     { key: "navbar.projects", path: "/projects" },

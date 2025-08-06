@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,7 +14,8 @@ const services = [
     { id: 1, src: "https://i.ibb.co/4qtRkwj/Bespoke-Spaces-Company-Profile-2.jpg", key: "services3.real_estate", path: "/services/real_estate_live" },
     { id: 2, src: "https://i.ibb.co/fYx1H9Lk/2.jpg", key: "services3.interior_design3", path: "/services/interior-design" },
     { id: 3, src: "https://i.ibb.co/m5LsGMJp/Bespoke-Spaces-Company-Profile-3.jpg", key: "services3.real_estate_services3", path: "/services/construction-development" },
-    { id: 4, src: "https://i.ibb.co/35jqFJhs/Bespoke-Spaces-Company-Profile-4.jpg", key: "services3.interior_design_services3", path: "/services/property_and_facility_management" }
+    { id: 4, src: "https://i.ibb.co/35jqFJhs/Bespoke-Spaces-Company-Profile-4.jpg", key: "services3.interior_design_services3", path: "/services/property_and_facility_management" },
+    { id: 5, src: "https://i.ibb.co/M5NkgfKD/27.jpg", key: "services3.supplying_building_materials", path: "/services/SUPPLYING_BUILDING_MATERIALS" },
 ];
 
 const ServicesSlider = () => {

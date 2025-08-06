@@ -33,6 +33,7 @@
     "interior_design": "التصميم الداخلي والتجهيز",
     "construction_and_Development": "البناء والتطوير",
     "property_and_facility_management": "إدارة الممتلكات والمرافق",
+    "SUPPLYING_BUILDING_MATERIALS": "توريد مواد البناء",
     "residential": "سكني",
     "commercial": "تجاري",
     "renovations": "التجديدات",
@@ -56,6 +57,10 @@
       {
         "title2": "خدمات التصميم الداخلي",
         "description2": "خدمات تصميم داخلي احترافية لتعزيز جمال وراحة المساحات السكنية والتجارية."
+      },
+      {
+        "title2": "توريد مواد البناء",
+        "description2": "توفير مواد بناء عالية الجودة للمشاريع السكنية والتجارية، مع التركيز على الاستدامة والابتكار."
       }
     ]
   },
@@ -245,6 +250,13 @@
       "description": "دمج حلول صديقة للبيئة لتحقيق الاستدامة وتوفير الطاقة."
     }
   },
+  "supplying_building_materials": {
+    "title": "توريد مواد البناء",
+    "Marble_Riyadh_stone_porcelain_and_ceramic": "رخام، حجر الرياض، بورسلان وسيراميك",
+    "Electrical_products_and_lighting_solutions": "منتجات كهربائية وحلول إضاءة",
+    "Sanitary_equipment_and_fixtures": "معدات صحية وتركيبات",
+    "WoodWork_and_WPC_Doors": "أعمال خشبية وأبواب WPC"
+  },
   "about3": {
     "title": "من نحن",
     "description1": " تقدّم شركة Bespoke Spaces حلولاً عقارية وتصميمية فاخرة مصممة بعناية، تجمع بين الابتكار، والفعاليه ، والأناقة المخصصة.",
@@ -269,6 +281,10 @@
     "interior_design_services3": {
       "title": "إدارة الممتلكات والمرافق",
       "description": "تحسين القيمة والحفاظ عليها"
+    },
+    "supplying_building_materials": {
+      "title": "توريد مواد البناء",
+      "description": "توفير مواد بناء عالية الجودة."
     }
   },
   "terms": {
@@ -310,9 +326,11 @@
     "contact_us": "اتصل بنا",
     "email": "البريد الإلكتروني",
     "phone": "الهاتف",
+    "instgram": "انستغرام",
+    "tiktok": "تيك توك",
     "get_in_touch": "تواصل معنا",
     "information": "معلومات",
-    "Commercial_register":"السجل التجاري",
+    "Commercial_register": "السجل التجاري",
     "privacy_policy": "سياسة الخصوصية",
     "terms_conditions": "الشروط والأحكام",
     "rights": "جميع الحقوق محفوظة"

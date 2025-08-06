@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "bespokespaces-4a4d5"
-  }
+    "default": "bespokespaces-4a4d5",
+    "live": "bespokespaces-361cc"
+  },
+  "targets": {},
+  "etags": {}
 }
