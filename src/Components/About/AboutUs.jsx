@@ -1,7 +1,5 @@
 import { lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
-import { Target, ChartNoAxesCombined } from "lucide-react"; // 👈 Added Eye icon for Vision
-
 // Lazy Load Components
 const MotionSection = lazy(() => import("./MotionSection"));
 const MotionImage = lazy(() => import("./MotionImage"));

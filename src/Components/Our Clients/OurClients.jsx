@@ -26,16 +26,15 @@ const OurClients = () => {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 justify-items-center">
           {[
-            "https://i.ibb.co/XkSD8y0Y/34.png",
-            "https://i.ibb.co/5yHGPM3/35.png",
-            "https://i.ibb.co/fG0t41qQ/36.png",
-            "https://i.ibb.co/TMcThN4D/37.png",
-            "https://i.ibb.co/gZTpX9G5/39.png",
-            "https://i.ibb.co/SwK2r758/40.png",
-            "https://i.ibb.co/JwfYjxQM/41.png",
             "https://i.ibb.co/dJmdhkCZ/42.png",
             "https://i.ibb.co/rR6MbYpg/43.png",
+            "https://i.ibb.co/fG0t41qQ/36.png",
+            "https://i.ibb.co/SwK2r758/40.png",
+            "https://i.ibb.co/XkSD8y0Y/34.png",
+            "https://i.ibb.co/TMcThN4D/37.png",
+            "https://i.ibb.co/gZTpX9G5/39.png",
             "https://i.ibb.co/h1fVRSv9/44.png",
+            "https://i.ibb.co/5yHGPM3/35.png",
           ].map((src, index) => (
             <motion.img
               key={index}
@@ -71,6 +70,8 @@ const OurClients = () => {
             "https://i.ibb.co/WwY6h6Y/31.png",
             "https://i.ibb.co/W9ygv5w/32.png",
             "https://i.ibb.co/M5399dxT/33.png",
+            "https://i.ibb.co/s9VdmdZ3/Whats-App-Image-2025-08-07-at-00-35-45-ec577ca5.jpg",
+            "https://i.ibb.co/DDZJ20G1/Whats-App-Image-2025-08-07-at-00-41-30-2557d2ec.jpg",
           ].map((src, index) => (
             <motion.img
               key={index}
