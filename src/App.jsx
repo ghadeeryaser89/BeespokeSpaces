@@ -25,6 +25,7 @@ import AlSulaymaniahVilla from "./Components/AlSulaymaniahVilla/AlSulaymaniahVil
 import ModernApartment from "./Components/3 Bedroom Modern Apart/ModernApartment.jsx";
 import ModernNajdiApartment from "./Components/Modern Najdi Apartment/ModernNajdiApartment.jsx";
 import SupplyingBuildingMaterials from "./Components/SUPPLYING BUILDING MATERIALS/SupplyingBuildingMaterials.jsx";
+import BespokeSignature from "./Components/Bespoke Signature/BespokeSignature.jsx"
 
 const App = () => {
   const { i18n } = useTranslation();
@@ -65,6 +66,7 @@ const App = () => {
           <Route path="projects/2" element={<AlSulaymaniahVilla />} />
           <Route path="projects/3" element={<ModernApartment />} />
           <Route path="projects/4" element={<ModernNajdiApartment />} />
+          <Route path="projects/5" element={<BespokeSignature />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

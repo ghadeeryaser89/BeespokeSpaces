@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,6 +14,7 @@ const projects = [
     { id: 2, title: "Al Sulaymaniah Villa", category: "residential", image: "https://i.ibb.co/m5hqLdt5/Screenshot-342.png" },
     { id: 3, title: "Modern Apartment", category: "residential", image: "https://i.ibb.co/21gfq92Z/IMG-2118.jpg" },
     { id: 4, title: "Modern Najdi Apartment", category: "residential", image: "https://i.ibb.co/hxTKxQh2/DSC00458.jpg" },
+    { id: 5, title: "Bespoke Signature", category: "commercial", image: "https://i.ibb.co/6cr27MTK/IMG-20250807-WA0068.jpg" },
 ];
 
 const ProjectsSection = () => {

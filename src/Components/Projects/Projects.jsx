@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -23,6 +24,11 @@ const projects = [
         id: 4, 
         title: "modern_najdi_apartment.title", // Translation key instead of hardcoded text
         image: "https://i.ibb.co/hxTKxQh2/DSC00458.jpg",
+    },
+    { 
+        id: 5, 
+        title: "bespoke_signature_office.title", // Translation key instead of hardcoded text
+        image: "https://i.ibb.co/6cr27MTK/IMG-20250807-WA0068.jpg",
     },
   
 ];

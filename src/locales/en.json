@@ -250,7 +250,7 @@
     "title": "SUPPLYING BUILDING MATERIALS",
     "Marble_Riyadh_stone_porcelain_and_ceramic": "All Types Of Stone For Flooring And Facades",
     "Electrical_products_and_lighting_solutions": "Electrical Products & Lighting Solutions",
-    "Sanitary_equipment_and_fixtures": "Sanitary equipment and fixtures",
+    "Sanitary_equipment_and_fixtures": "Sanitary Equipment & Fixtures",
     "WoodWork_and_WPC_Doors": "Woodwork and WPC Doors"
   },
   "about3": {
@@ -363,6 +363,10 @@
       "4": {
         "title": "Modern Najdi Apartment",
         "category": "Residential"
+      },
+      "5": {
+        "title" :"Bespoke Signature — Executive Office Edition",
+        "category": "Commercial"
       }
     }
   },
@@ -383,6 +387,14 @@
     "description": "This elegantly furnished 2-bedroom, 3-bathroom apartment embodies a refined blend of Diriyah-inspired charm and contemporary sophistication. Ideally situated less than 100 meters from Misk City and Misk Schools, it offers seamless access to the Diplomatic Quarter, Laysen Valley, and Diriyah, placing key destinations within easy reach. Designed with a focus on both style and comfort, the residence features spacious living areas, a fully equipped modern kitchen, and thoughtfully curated interiors that exude understated luxury. Every detail has been carefully considered to create a home that is both inviting and effortlessly elegant.",
     "read_more": "Read More",
     "read_less": "Read Less"
+  },
+  "bespoke_signature_office": {
+    "title": "Bespoke Signature — Executive Office Edition",
+    "description": "Introducing Bespoke Signature, our new design line dedicated to delivering fully tailored environments where every element is thoughtfully curated — not just the furniture, but the entire space from the ground up.",
+    "luxury_details": "This project redefines custom luxury. From Italian Viola and Calacatta marble flooring, to French and Italian fabrics, handcrafted walnut joinery, and bespoke brass hardware — every detail was designed specifically for this office.",
+    "planning": "Even the lighting, decor accessories, and layout planning were developed in advance to ensure harmony, function, and elegance.",
+    "signature_touches": "Signature touches like Baccarat vases, custom light fittings, and a fully integrated design concept elevate the space beyond traditional interiors.",
+    "philosophy": "Bespoke Signature isn’t just a look — it’s a design philosophy. One where everything is made to measure, nothing off-the-shelf, and every detail tells a story."
   },
   "our_clients": {
     "title": "Some of Our Clients",
