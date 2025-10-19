@@ -28,11 +28,11 @@ const OurClients = () => {
           {[
             "https://i.ibb.co/dJmdhkCZ/42.png",
             "https://i.ibb.co/rR6MbYpg/43.png",
-            "https://i.ibb.co/fG0t41qQ/36.png",
+            "https://i.ibb.co/Nn9jT8Fr/riyadh-season-seeklogo.png",
             "https://i.ibb.co/SwK2r758/40.png",
             "https://i.ibb.co/XkSD8y0Y/34.png",
             "https://i.ibb.co/TMcThN4D/37.png",
-            "https://i.ibb.co/gZTpX9G5/39.png",
+            "https://i.ibb.co/XkbKtRhG/sela-seeklogo.png",
             "https://i.ibb.co/h1fVRSv9/44.png",
             "https://i.ibb.co/5yHGPM3/35.png",
           ].map((src, index) => (
@@ -70,8 +70,8 @@ const OurClients = () => {
             "https://i.ibb.co/WwY6h6Y/31.png",
             "https://i.ibb.co/W9ygv5w/32.png",
             "https://i.ibb.co/M5399dxT/33.png",
-            "https://i.ibb.co/s9VdmdZ3/Whats-App-Image-2025-08-07-at-00-35-45-ec577ca5.jpg",
-            "https://i.ibb.co/DDZJ20G1/Whats-App-Image-2025-08-07-at-00-41-30-2557d2ec.jpg",
+            "https://i.ibb.co/GvkQdFmQ/Whats-App-Image-2025-10-19-at-22-13-00-59af130f-removebg-preview.png",
+            "https://i.ibb.co/TMCqzWjH/Whats-App-Image-2025-10-19-at-22-01-27-3760565f-removebg-preview.png",
           ].map((src, index) => (
             <motion.img
               key={index}

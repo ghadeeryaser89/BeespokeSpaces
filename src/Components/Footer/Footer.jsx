@@ -40,7 +40,7 @@ const Footer = () => {
                         </p>
 
                         <a
-                            href="https://www.instagram.com/bespokespaces.sa/"
+                            href="https://www.instagram.com/bespoke__spaces/#"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block text-lightText hover:underline hover:text-darkText mt-2 flex items-center gap-2"
@@ -66,7 +66,7 @@ const Footer = () => {
                             {t("footer.get_in_touch")}
                         </Link>
                     </div>
-                    
+
                     {/* Information Section */}
                     <div className="md:w-1/3">
                         <h3 className="text-2xl font-semibold mb-4 text-darkText">{t("footer.information")}</h3>
